@@ -1,1 +1,10 @@
-
+pipeline{
+    agent any
+    stages{
+        stage("welcome to Declarative"){
+            steps{
+                echo "welcom to declarative pipeline"
+            }
+        }
+    }
+}
